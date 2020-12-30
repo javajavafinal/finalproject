@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:id="@+id/life"
+        android:layout_width="326dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="344dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/rightAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正解" />
+
+        <Button
+            android:id="@+id/wrongAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="錯誤" />
+
+        <Button
+            android:id="@+id/wrongAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="錯誤" />
+
+        <Button
+            android:id="@+id/wrongAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="錯誤" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lifeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="100/100"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/life"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
