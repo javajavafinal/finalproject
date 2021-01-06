@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-=======
     android:background="@drawable/wallpaper1"
->>>>>>> 8c163e69e9cf3e72fb70efc8b30cc0888f68882a
     tools:context=".ScoreshowActivity">
 
     <TextView
@@ -15,10 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-<<<<<<< HEAD
-=======
         android:textColor="#FFFFFF"
->>>>>>> 8c163e69e9cf3e72fb70efc8b30cc0888f68882a
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/score"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,10 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-<<<<<<< HEAD
-=======
         android:textColor="#FFFFFF"
->>>>>>> 8c163e69e9cf3e72fb70efc8b30cc0888f68882a
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,10 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-<<<<<<< HEAD
-=======
         android:textColor="#FFFFFF"
->>>>>>> 8c163e69e9cf3e72fb70efc8b30cc0888f68882a
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,10 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-<<<<<<< HEAD
-=======
         android:textColor="#FFFFFF"
->>>>>>> 8c163e69e9cf3e72fb70efc8b30cc0888f68882a
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/score"
         app:layout_constraintEnd_toEndOf="parent"
