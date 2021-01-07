@@ -15,10 +15,7 @@
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
-<<<<<<< HEAD
-=======
         <option name="useQualifiedModuleNames" value="true" />
->>>>>>> master
       </GradleProjectSettings>
     </option>
   </component>

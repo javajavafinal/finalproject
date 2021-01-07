@@ -72,40 +72,24 @@ public class QuizDbHelper extends SQLiteOpenHelper {
                 int ra = 0;
                 ra = (int) (Math.random() * (listA.size()));
                 listR = Arrays.asList(listA.get(ra).split("\\."));
-<<<<<<< HEAD
-//                listA.remove((listA.get(ra)));
-=======
->>>>>>> master
                 break;
 
             case 1:
                 int rb = 0;
                 rb = (int) (Math.random() * (listB.size()));
                 listR = Arrays.asList(listB.get(rb).split("\\."));
-<<<<<<< HEAD
-//                listB.remove((listB.get(rb)));
-=======
->>>>>>> master
                 break;
 
             case 2:
                 int rc = 0;
                 rc = (int) (Math.random() * (listC.size()));
                 listR = Arrays.asList(listC.get(rc).split("\\."));
-<<<<<<< HEAD
-//                listC.remove((listC.get(rc)));
-=======
->>>>>>> master
                 break;
 
             case 3:
                 int rd = 0;
                 rd = (int) (Math.random() * (listD.size()));
                 listR = Arrays.asList(listD.get(rd).split("\\."));
-<<<<<<< HEAD
-//                listD.remove((listD.get(rd)));
-=======
->>>>>>> master
                 break;
         }
     }
